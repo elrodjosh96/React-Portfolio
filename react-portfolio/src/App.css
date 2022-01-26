@@ -3,8 +3,10 @@
   --primary-dark: rgba(255,255,255,0);
 }
 
+/* Navbar */
+
 .navbar-nav {
-  margin-left: auto;
+  margin: auto;
 }
 
 nav a.nav-link {
@@ -39,6 +41,26 @@ nav ul li {
 .navbar-nav > li > a:hover {
   border-top: 3px solid var(--primary-white);
 }
+
+/* HEADER */
+
+.header-wrapper {
+  position: relative;
+  background: url(backgroundimgforportfolio.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
 
 /* .App {
   text-align: center;
