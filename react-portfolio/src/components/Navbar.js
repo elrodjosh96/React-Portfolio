@@ -1,7 +1,11 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
+import Header from "./Header";
+
 
 const Navbar = () => {
     return (
+        <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <div className="container-fluid">
                 <div className="container">
@@ -12,19 +16,19 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <Link to = '/' className="nav-link active" aria-current="page" >Home</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">About Me</a>
+                                <Link to = '/aboutMe' className="nav-link" >About Me</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Portfolio</a>
+                                <Link to = '/Projects' className="nav-link" >Projects</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Me</a>
+                                <Link to = '/contactMe' className="nav-link" >Contact Me</Link>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Resume</a>
+                                <Link to = '/Resume' className="nav-link" >Resume</Link>
                             </li>
                             
                         </ul>
@@ -33,6 +37,10 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+        <br></br>
+        <Outlet/>
+    </div>
+        
     )
 }
 
