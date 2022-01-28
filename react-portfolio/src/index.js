@@ -13,6 +13,9 @@ import Contact from './components/Pages/contactMe';
 import Resume from './components/Pages/Resume';
 import Projects from './components/Pages/Projects';
 import Header from './components/Header';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// // import { Formik, Field, Form } from 'formik';
 
 ReactDOM.render(
   <React.StrictMode>
