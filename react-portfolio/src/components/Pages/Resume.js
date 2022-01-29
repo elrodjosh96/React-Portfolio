@@ -4,10 +4,10 @@ import '../css/resume.css';
 
 export default function Resume ({ currPage, setCurrPage }) {
     return <div className='container resume-section'>
-        <iframe title='resume-pdf' src="https://drive.google.com/file/d/1WQWHJprRSIX8aF47LkcrXmFnTpv6kzOt/preview" width="90%" allow="autoplay"></iframe>
+        <iframe title='resume-pdf' src="https://drive.google.com/file/d/1TcpaPsWmyyucNMLgjaufVNtJV7e-jk7c/preview" width="90%" allow="autoplay"></iframe>
         <br/>
         <br/>
-        <a className='resume-link' href='https://drive.google.com/file/d/1WQWHJprRSIX8aF47LkcrXmFnTpv6kzOt/preview'>You can download a copy of My Resume here!</a>
+        <a className='resume-link' href='https://drive.google.com/file/d/1TcpaPsWmyyucNMLgjaufVNtJV7e-jk7c/preview'>You can download a copy of My Resume here!</a>
     </div>
 };
 

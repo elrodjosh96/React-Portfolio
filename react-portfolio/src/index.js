@@ -20,7 +20,7 @@ import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Portfolio'>
       <Routes>
         <Route path="/" element={<App />} >
           <Route path='/' element={<Header />} />
