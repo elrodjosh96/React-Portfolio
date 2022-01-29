@@ -1,3 +1,12 @@
+body {
+  background-color: #2f4353;
+background-image: linear-gradient(315deg, #2f4353 0%, #d2ccc4 74%);
+}
+
+p {
+  font-size: x-large;
+}
+
 :root {
   --primary-white: #fff;
   --primary-dark: rgba(255,255,255,0);
@@ -60,10 +69,40 @@ nav ul li {
   text-align: center;
 }
 
-/* .aboutmediv {
-  
-} */
+.aboutmediv {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+}
 
+.hobbiesdiv {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+}
+
+form {
+  padding: 55px;
+  flex: 1 1 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+
+
+/* textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+} */
 /* .App {
   text-align: center;
 }

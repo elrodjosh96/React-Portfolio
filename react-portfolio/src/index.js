@@ -13,6 +13,7 @@ import Contact from './components/Pages/contactMe';
 import Resume from './components/Pages/Resume';
 import Projects from './components/Pages/Projects';
 import Header from './components/Header';
+import Footer from './components/Footer'
 // import React from 'react';
 // import ReactDOM from 'react-dom';
 // // import { Formik, Field, Form } from 'formik';
@@ -20,16 +21,17 @@ import Header from './components/Header';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<App />} >
-        <Route path = '/' element={<Header />}/>
-      <Route path="contactMe" element={<Contact />} />
-      <Route path="aboutMe" element={<About />} />
-      <Route path="Resume" element={<Resume />} />
-      <Route path="Projects" element={<Projects />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>,
+      <Routes>
+        <Route path="/" element={<App />} >
+          <Route path='/' element={<Header />} />
+          <Route path='/' element={<Footer />} />
+          <Route path="contactMe" element={<Contact />} />
+          <Route path="aboutMe" element={<About />} />
+          <Route path="Resume" element={<Resume />} />
+          <Route path="Projects" element={<Projects />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>,
   </React.StrictMode>,
   document.getElementById('root')
 );

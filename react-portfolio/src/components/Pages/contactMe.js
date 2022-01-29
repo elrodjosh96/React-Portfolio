@@ -43,7 +43,7 @@ export default function Contact() {
         <form onSubmit={formik.handleSubmit}>
             <h1>You can send me an email here for any further questions!</h1>
             <div className='input-container'>
-                <input
+                <input className="textarea"
                     id='reply_to'
                     name='reply_to'
                     onChange={formik.handleChange}
