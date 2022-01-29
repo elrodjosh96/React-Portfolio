@@ -60,7 +60,7 @@ export default function Projects() {
         title='Employee Tracker'
         // image='https://avatars.githubusercontent.com/u/88386990?v=4'
         description='This employee tracker system allows you to get track of your employees roles, salary, job titles and manager status. It even allows you to create new employees and add the corresponding fields to their employee id for. It was built using mySQL, Inquierer, Express.JS and JavaScript.'
-        github='https://github.com/elrodjosh96'/>
+        github='https://www.youtube.com/watch?v=bXU1HbT0KnU'/>
       </div>
     </div>
   </div>
