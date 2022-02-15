@@ -48,7 +48,7 @@ export default function Projects() {
       <ProjectCard
         title='Social Network API'
         // image='https://avatars.githubusercontent.com/u/88386990?v=4'
-        description='This back-end network API allows you to view users by ID and create a new user. It also allows you view and create thoughts and comment on others thoughts. You can also add friends to your user profile and filter byt user ID, thought ID and even delete a user, friend and thought.'
+        description='This back-end network API allows you to view users by ID and create a new user. It also allows you view and create thoughts and comment on others thoughts. You can also add friends to your user profile and filter by user ID, thought ID and even delete a user, friend and thought.'
         github='https://www.youtube.com/watch?v=qYf2GPBMagI'/>
       </div>
     </div>
@@ -59,7 +59,7 @@ export default function Projects() {
       <ProjectCard
         title='Employee Tracker'
         // image='https://avatars.githubusercontent.com/u/88386990?v=4'
-        description='This employee tracker system allows you to get track of your employees roles, salary, job titles and manager status. It even allows you to create new employees and add the corresponding fields to their employee id for. It was built using mySQL, Inquierer, Express.JS and JavaScript.'
+        description='This employee tracker system allows you to get track of your employees roles, salary, job titles and manager status. It even allows you to create new employees and add the corresponding fields to their employee id. It was built using mySQL, Inquierer, Express.JS and JavaScript.'
         github='https://www.youtube.com/watch?v=bXU1HbT0KnU'/>
       </div>
     </div>
