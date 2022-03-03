@@ -8,7 +8,8 @@ export default function ProjectCard(props) {
             <p>{props.description}
             </p>
             <img src = {props.image}/>
-            <a href={props.github}>Github</a>
+            <p><a href={props.link}>Deployed link</a></p>
+            <p><a href={props.github}>Github Repo link</a></p>
         </div>
         
     )

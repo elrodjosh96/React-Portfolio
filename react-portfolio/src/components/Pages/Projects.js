@@ -27,7 +27,8 @@ export default function Projects() {
         title='Flasher'
         // image='https://github.com/beattygraphics/Group-Project-2/raw/main/public/assets/images/flasher-homepage.png'
         description='Flasher is a full-stack web application that serves as a flashcard study companion for Bootcamp students. Drawing inspiration from similar products like Quizlet, Flasher allows the user to navigate through decks of flashcards pertaining to their current area of study all the way from basic HTML to the popular Javascript library React. Users also have the ability to create new cards and contribute to the cohorts collective learning experience.'
-        github='https://flasherquiz.herokuapp.com/'/>
+        link='https://flasherquiz.herokuapp.com/'
+        github='https://github.com/beattygraphics/Group-Project-2'/>
       </div>
     </div>
   </div>
@@ -38,7 +39,8 @@ export default function Projects() {
         title='Tech Blog'
         // image='https://github.com/elrodjosh96/Tech-Blog/raw/main/public/assets/logintechblog.png'
         description='Tech Blog is a simple to use web app where a user can sign up and create posts about anything and everything tech related! This was built using mysql, Handlebars and JavaScript.'
-        github='https://tech-blog-je.herokuapp.com/'/>
+        link='https://tech-blog-je.herokuapp.com/'
+        github='https://github.com/elrodjosh96/Tech-Blog'/>
       </div>
     </div>
   </div>
@@ -49,7 +51,8 @@ export default function Projects() {
         title='Social Network API'
         // image='https://avatars.githubusercontent.com/u/88386990?v=4'
         description='This back-end network API allows you to view users by ID and create a new user. It also allows you view and create thoughts and comment on others thoughts. You can also add friends to your user profile and filter by user ID, thought ID and even delete a user, friend and thought.'
-        github='https://www.youtube.com/watch?v=qYf2GPBMagI'/>
+        link='https://www.youtube.com/watch?v=qYf2GPBMagI'
+        github='https://github.com/elrodjosh96/Social-Network-API'/>
       </div>
     </div>
   </div>
@@ -60,7 +63,8 @@ export default function Projects() {
         title='Employee Tracker'
         // image='https://avatars.githubusercontent.com/u/88386990?v=4'
         description='This employee tracker system allows you to get track of your employees roles, salary, job titles and manager status. It even allows you to create new employees and add the corresponding fields to their employee id. It was built using mySQL, Inquierer, Express.JS and JavaScript.'
-        github='https://www.youtube.com/watch?v=bXU1HbT0KnU'/>
+        link='https://www.youtube.com/watch?v=bXU1HbT0KnU'
+        github='https://github.com/elrodjosh96/Employee-Tracker'/>
       </div>
     </div>
   </div>
